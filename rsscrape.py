@@ -78,5 +78,6 @@ async def main():
     all_files_amount = len(glob(f"{TARGET_PATH}/*.json"))
     print(f"[INFO] {all_files_amount} json files in '{TARGET_PATH}'")
 
+
 if __name__ == "__main__":
     asyncio.run(main())
